@@ -24,7 +24,6 @@ export const DATA = {
     "Node.js",
     "Express.js",
     "MongoDB",
-  
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -201,8 +200,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+      video: "https://go.screenpal.com/watch/cZX2FdnVliR",
     },
     {
       title: "Magic UI",
