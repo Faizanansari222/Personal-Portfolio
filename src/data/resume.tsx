@@ -177,7 +177,7 @@ export const DATA = {
   projects: [
     {
       title: "Scrolllink",
-      href: "https://chatcollect.com",
+      href: "",
       dates: "Nov 2024 - Present",
       active: true,
       description:
@@ -185,17 +185,14 @@ export const DATA = {
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
         "TailwindCSS",
-        "Stripe",
         "Shadcn UI",
-        "Magic UI",
+        "Firebase",
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -217,7 +214,6 @@ export const DATA = {
         "TailwindCSS",
         "Stripe",
         "Shadcn UI",
-        "Magic UI",
       ],
       links: [
         {
@@ -235,22 +231,19 @@ export const DATA = {
       video: "",
     },
     {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
+      title: "OLX Clone",
+      href: "",
+      dates: "Febuary 2024 - March 2024",
       active: true,
       description:
         "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
         "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "MongoDB",
+        "Express.js",
+        "Mongoose",
       ],
       links: [
         {
