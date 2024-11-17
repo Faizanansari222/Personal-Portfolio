@@ -1,6 +1,6 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
-import myImg from "../assites/faizan pic.jpg";
+import myImg from "../assites/portfolio-image.png";
 
 export const DATA = {
   name: "Faizan Ansari",
@@ -176,12 +176,12 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Chat Collect",
+      title: "Scrolllink",
       href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      dates: "Nov 2024 - Present",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "with the relize of the hackathon, I built a web application for a social media platform called 'Scrolllink,' utilizing the MERN stack to implement both frontend and backend features seamlessly.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -200,12 +200,12 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      video: "",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "My Portfolio",
+      href: "https://faizan-pr.netlify.app/",
+      dates: "June 2024 - Aug 2024",
       active: true,
       description:
         "Designed, developed and sold animated UI components for developers.",
@@ -232,7 +232,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      video: "",
     },
     {
       title: "llm.report",
@@ -265,7 +265,8 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      video: "",
+      // https://cdn.llm.report/openai-demo.mp4
     },
     {
       title: "Automatic Chat",
@@ -294,43 +295,44 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+        "",
+        // https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4
     },
   ],
   hackathons: [
     {
-      title: "SMIT Hack Modren Web & Mobile",
-      dates: "November 23rd - 25th, 2018",
+      title: "Mobile Application Hackathon CLI",
+      dates: "August 23rd - 24th, 2024",
+      location: "Karachi, Pakistan",
+      description:
+        "Developed a mobile application which delivers university campus wide events in real time to all students.",
+      icon: "public",
+      image: "https://student.saylaniwelfare.com/assets/logo-OpazD70S.png",
+      links: [],
+    },
+
+    {
+      title: "MERN Stack Hackathon from Expertizo University",
+      dates: "November 9th - 16th, 2024",
+      location: "Karachi, Pakistan",
+      description:
+        "Developed a fully functional web application for a social media platform called 'Scrolllink,' utilizing the MERN stack to implement both frontend and backend features seamlessly.",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEino0iKTWRS-SY1VMco--9JhJyRXkW2aSdg&s",
+      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      links: [],
+    },
+    {
+      title: "SMIT Hack Modren Web & App",
+      dates: "November 23rd - 25th, 2023",
       location: "Karachi, Pakistan",
       description:
         "Developed a Web Application for the Hoaspital landing page which delivered an interactive experience to patients.",
-      image:
-        "https://student.saylaniwelfare.com/assets/logo-OpazD70S.png",
+      image: "https://student.saylaniwelfare.com/assets/logo-OpazD70S.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
     },
-    {
-      title: "Hack The North",
-      dates: "September 14th - 16th, 2018",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed a mobile application which delivers university campus wide events in real time to all students.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
-    },
-    {
-      title: "FirstNet Public Safety Hackathon",
-      dates: "March 23rd - 24th, 2018",
-      location: "San Francisco, California",
-      description:
-        "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
-      icon: "public",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/firstnet.png",
-      links: [],
-    },
+
     // {
     //   title: "DeveloperWeek Hackathon",
     //   dates: "February 3rd - 4th, 2018",
