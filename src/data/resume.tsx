@@ -191,9 +191,9 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
-          href: "",
-          icon: <Icons.globe className="size-3" />,
+          type: "Source",
+          href: "https://github.com/Faizanansari222/Hackathon-Expertizo",
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
@@ -206,24 +206,16 @@ export const DATA = {
       active: true,
       description:
         "Designed, developed and sold animated UI components for developers.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-      ],
+      technologies: ["Next.js", "Typescript", "TailwindCSS", "Shadcn UI"],
       links: [
         {
           type: "Website",
-          href: "https://magicui.design",
+          href: "https://faizan-pr.netlify.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/Faizanansari222/Personal-Portfolio",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -262,34 +254,28 @@ export const DATA = {
       // https://cdn.llm.report/openai-demo.mp4
     },
     {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
+      title: "Bridle Dashboard",
+      href: "https://bridle-1vsd.vercel.app/dashboard",
+      dates: "Dec 2024 - Dec 2024",
       active: true,
       description:
         "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
+      technologies: ["Next.js", "Typescript", "TailwindCSS", "Shadcn UI"],
       links: [
         {
           type: "Website",
-          href: "https://automatic.chat",
+          href: "https://bridle-1vsd.vercel.app/dashboard",
           icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Faizanansari222/bridle_",
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video:
-        "",
-        // https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4
+      video: "",
+      // https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4
     },
   ],
   hackathons: [
