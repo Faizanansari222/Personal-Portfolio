@@ -259,7 +259,7 @@ export const DATA = {
       dates: "Dec 2024 - Dec 2024",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "Developed a Portal for the horse's events managing industry .",
       technologies: ["Next.js", "Typescript", "TailwindCSS", "Shadcn UI"],
       links: [
         {
