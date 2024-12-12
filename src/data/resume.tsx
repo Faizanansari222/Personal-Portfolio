@@ -1,10 +1,10 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
-import myImg from "../assites/portfolio-image.png";
 
 export const DATA = {
   name: "Faizan Ansari",
   initials: "FA",
+  url: "https://dillion.io",
   location: "Karachi, Pakistan",
   locationLink: "https://www.google.com/maps/place/karachi",
   description:
