@@ -4,7 +4,6 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Faizan Ansari",
   initials: "FA",
-  url: "https://dillion.io",
   location: "Karachi, Pakistan",
   locationLink: "https://www.google.com/maps/place/karachi",
   description:
@@ -182,7 +181,6 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
           icon: <Icons.github className="size-3" />,
         },
       ],
