@@ -37,8 +37,8 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "faizanrazaansari07@gmail.com",
+    tel: "+92 346 2266597",
     social: {
       GitHub: {
         name: "GitHub",
@@ -160,7 +160,7 @@ export const DATA = {
     },
     {
       title: "OLX Clone",
-      href: "",
+      href: "#",
       dates: "Febuary 2024 - March 2024",
       active: true,
       description:
@@ -176,11 +176,12 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
+          href: "#",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
+          href: "#",
           icon: <Icons.github className="size-3" />,
         },
       ],
